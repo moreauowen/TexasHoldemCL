@@ -1,3 +1,5 @@
+package src;
+
 /**
  * Represents different ranks for the Cards
  * @author Owen Moreau, Jamie Kerr, Griffin Campbell
@@ -79,4 +81,4 @@ public enum Rank
         return graphic ;
     }
 
-} // end enum Rank
+} // end enum src.Rank

@@ -1,10 +1,11 @@
-import java.util.ArrayList;
+package src;
+
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List ;
 
 /**
- * Represents a pile of playing cards (used in Hand and Deck).
+ * Represents a pile of playing cards (used in src.Hand and src.Deck).
  * @author Owen Moreau, Jamie Kerr, Griffin Campbell
  * @version 1.0.0
  */
@@ -33,7 +34,7 @@ public class Pile
 
     /**
      * THIS IS TO BE USED WHEN INSTANTIATING A DECK
-     * Adds a card to the Pile.
+     * Adds a card to the src.Pile.
      * @param c
      */
     public void addCard(Card c) {
@@ -66,4 +67,4 @@ public class Pile
         Collections.shuffle(cards);
     }
 
-}	// end class Pile
+}	// end class src.Pile

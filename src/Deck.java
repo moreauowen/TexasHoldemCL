@@ -1,5 +1,5 @@
-import java.util.ArrayList;
-import java.util.Collections;
+package src;
+
 import java.util.LinkedList;
 
 /**
@@ -11,7 +11,7 @@ public class Deck extends Pile
 {
 
     /**
-     * Constructs a standard 52-Card deck.
+     * Constructs a standard 52-src.Card deck.
      */
     public Deck()
     {
@@ -74,4 +74,4 @@ public class Deck extends Pile
         return leavingDeck;
     }
 
-}	// end class Deck
+}	// end class src.Deck

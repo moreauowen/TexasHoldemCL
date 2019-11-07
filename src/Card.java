@@ -1,3 +1,5 @@
+package src;
+
 /**
  * Represents a playing card
  * @author Owen Moreau, Jamie Kerr, Griffin Campbell
@@ -72,5 +74,5 @@ public class Card implements Comparable<Card>
         System.out.println("  The cards do not match!");
         return false;
     }
-    
-}	// end class Card
+
+}	// end class src.Card

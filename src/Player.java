@@ -1,7 +1,9 @@
+package src;
+
 import java.util.Collections;
 
 /**
- * Represents each Player in the game.
+ * Represents each src.Player in the game.
  * @author Owen Moreau, Jamie Kerr, Griffin Campbell
  * @version 1.0.0
  */
@@ -67,20 +69,20 @@ public class Player
     }
 
     /**
-     * No args constructor for type Player
+     * No args constructor for type src.Player
      */
     public Player()
     {
         specId = id++;
         hand = new Hand();
-        playerName = "Player " + specId;
+        playerName = "src.Player " + specId;
         numCoins = 0;
         setScore(0);
         setInMatch(true);
     }	// end constructor
 
     /**
-     * Single arg constructor to define specific name for Player
+     * Single arg constructor to define specific name for src.Player
      */
     public Player(String name)
     {
@@ -93,7 +95,7 @@ public class Player
     }	// end constructor
 
     /**
-     * No args constructor for type Player
+     * No args constructor for type src.Player
      */
     public Player(String name, int startingCoins)
     {
@@ -186,7 +188,7 @@ public class Player
         {
             Rank rank = hand.highestRank();
 
-            System.out.println("High Card: " + rank.toString());
+            System.out.println("High src.Card: " + rank.toString());
             return rank.getPoints();
 
         }
@@ -208,4 +210,4 @@ public class Player
         this.inMatch = inMatch;
     }
 
-}	// end class Player
+}	// end class src.Player

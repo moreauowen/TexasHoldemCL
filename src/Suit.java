@@ -1,3 +1,5 @@
+package src;
+
 /**
  * Represents different suits for the Cards
  * @author Owen Moreau, Jamie Kerr, Griffin Campbell
@@ -54,4 +56,4 @@ public enum Suit implements Comparable<Suit>
         return graphic ;
     }
 
-} // end enum Suit
+} // end enum src.Suit

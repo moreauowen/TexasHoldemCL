@@ -1,7 +1,9 @@
+package src;
+
 import java.util.LinkedList;
 
 /**
- * Represents a Player's Hand
+ * Represents a src.Player's src.Hand
  * @author Owen Moreau, Jamie Kerr, Griffin Campbell
  * @version 1.0.0
  */
@@ -267,4 +269,4 @@ public class Hand extends Pile
         return toReturn;
     }
 
-}	// end class Hand
+}	// end class src.Hand
