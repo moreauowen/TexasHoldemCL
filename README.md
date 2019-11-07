@@ -1,2 +1,2 @@
 # TexasHoldemCL
-Texas Holdem through the command line. Completed for Data Structures class, Spring 2019.
+Easily player Texas Holdem through the command line! This was completed as a project for my Data Structures class in Spring 2019 (Freshman Year). Questions or concerns - contact moreauowen@gmail.com. Authors: Owen Moreau, Jamie Kerr, Griffin Campbell
